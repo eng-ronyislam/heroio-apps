@@ -1,7 +1,7 @@
 import React from "react";
 import playstor from "../../assets/playstore.png";
-import appstore from "../../assets/app-store.png"
-import heroImg from "../../assets/hero.png"
+import appstore from "../../assets/app-store.png";
+import heroImg from "../../assets/hero.png";
 
 const Hero = () => {
   return (
@@ -18,9 +18,21 @@ const Hero = () => {
               ideas into digital experiences that truly make an impact.
             </p>
             <div className="space-x-2 flex justify-center">
-                <button className="p-3 text-xl font-semibold border border-gray-400 rounded-[4px] flex items-center cursor-pointer"> <img src={playstor} alt="" className="w-5 h-5" /> <span>Google Play</span></button>
-            <button className="p-3 text-xl font-semibold border border-gray-400 rounded-[4px] flex items-center cursor-pointer"> <img src={appstore} alt="" className="w-5 h-5" /> <span>App Store</span></button>
+              <a href="https://play.google.com/store" target="_blank">
+                <button className="p-3 text-xl font-semibold border border-gray-400 rounded-[4px] flex items-center gap-2 cursor-pointer hover:bg-gray-100 transition">
+                  <img src={playstor} alt="Play Store" className="w-5 h-5" />
+                  <span>Google Play</span>
+                </button>
+              </a>
+
+              <a href="https://www.apple.com/app-store/" target="_blank">
+                <button className="p-3 text-xl font-semibold border border-gray-400 rounded-[4px] flex items-center gap-2 cursor-pointer hover:bg-gray-100 transition">
+                  <img src={appstore} alt="App Store" className="w-5 h-5" />
+                  <span>App Store</span>
+                </button>
+              </a>
             </div>
+
             <img src={heroImg} alt="" className="mt-10 mx-auto" />
           </div>
         </div>

@@ -1,37 +1,64 @@
 import React, { useState, useEffect } from "react";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import downlodIcon from "../../assets/icon-downloads.png";
 import ratingIcon from "../../assets/icon-ratings.png";
 
 const InstalledApps = () => {
   const [installList, setInstallList] = useState([]);
   const [sortOrder, setSortOrder] = useState("");
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const stored = JSON.parse(localStorage.getItem("Installation")) || [];
-    setInstallList(stored);
+    setLoading(true);
+    setTimeout(() => {
+      const stored = JSON.parse(localStorage.getItem("Installation")) || [];
+      setInstallList(stored);
+      setLoading(false);
+    }, 500);
   }, []);
 
   const sortedApps = () => {
     let sorted = [...installList];
-    if (sortOrder === "high-low") {
+    if (sortOrder === "high-low")
       return sorted.sort((a, b) => b.downloads - a.downloads);
-    } else if (sortOrder === "low-high") {
+    if (sortOrder === "low-high")
       return sorted.sort((a, b) => a.downloads - b.downloads);
-    }
     return sorted;
   };
 
-  const handleRemove = (id) => {
+  const handleRemove = (id, title) => {
+    toast.info(`🗑️ ${title} uninstalled successfully!`, {
+    position: "top-right",
+    autoClose: 2000
+  });
+
     const updatedList = installList.filter((app) => app.id !== id);
     setInstallList(updatedList);
     localStorage.setItem("Installation", JSON.stringify(updatedList));
   };
 
+  if (loading) {
+    return (
+      <div className="flex justify-center items-center py-20">
+        <span className="loading loading-ring loading-xl"></span>
+      </div>
+    );
+  }
+
+  if (installList.length === 0) {
+    return (
+      <div className="text-center py-20 text-gray-500 text-lg font-medium">
+        🚫 No Installed Apps
+      </div>
+    );
+  }
+
   return (
     <div>
       <div className="mt-10 flex items-center justify-between flex-col md:flex-row gap-4">
         <h3 className="font-semibold text-2xl">
-          ({sortedApps().length}) Apps Found
+          ({sortedApps().length}) Apps Installed
         </h3>
 
         <div>
@@ -40,7 +67,7 @@ const InstalledApps = () => {
             onChange={(e) => setSortOrder(e.target.value)}
             className="select select-bordered"
           >
-            <option value="" disabled selected>Sort by Downloads</option>
+            <option value="">Sort by Downloads</option>
             <option value="high-low">High → Low</option>
             <option value="low-high">Low → High</option>
           </select>
@@ -68,7 +95,9 @@ const InstalledApps = () => {
                 </div>
 
                 <div>
-                  <div className="font-medium text-sm text-gray-900">{title}</div>
+                  <div className="font-medium text-sm text-gray-900">
+                    {title}
+                  </div>
                   <div className="flex gap-2 mt-1">
                     <div className="flex items-center bg-green-50 px-2 py-1 rounded text-xs text-green-600">
                       <img src={downlodIcon} alt="" className="w-4 h-4 mr-1" />
@@ -86,7 +115,7 @@ const InstalledApps = () => {
               </div>
 
               <button
-                onClick={() => handleRemove(id)}
+                onClick={() => handleRemove(id, title)}
                 className="cursor-pointer mt-4 bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition-transform duration-300 hover:scale-105"
               >
                 Uninstall
@@ -95,6 +124,8 @@ const InstalledApps = () => {
           );
         })}
       </div>
+
+      <ToastContainer />
     </div>
   );
 };

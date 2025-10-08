@@ -7,13 +7,15 @@ const useApps = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    setLoading(true)
     const fetchApps = async () => {
+      setLoading(true);
       try {
-        const res = await axios.get("../apps.json");
+        await new Promise((resolve) => setTimeout(resolve, 500));
+
+        const res = await axios.get("/apps.json");
         setApps(res.data);
       } catch (err) {
-        setError(err.message);
+        setError(err.message || "Failed to fetch apps");
       } finally {
         setLoading(false);
       }

@@ -4,8 +4,8 @@ import Root from "../pages/Root/Root";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import Home from "../pages/Home/Home";
 import Apps from "../pages/Apps/Apps";
-import Installation from "../pages/Installation/Installation";
 import App from "../pages/App/App";
+import MyInstallation from "../pages/MyInstallation/MyInstallation";
 
 export const router = createBrowserRouter([
   {
@@ -19,7 +19,7 @@ export const router = createBrowserRouter([
         Component: Home,
       },
       { path: "/apps", Component: Apps },
-      { path: "/installation", Component: Installation },
+      { path: "/installation", Component: MyInstallation },
       {path: "/app/:id", Component:App}
     ],
   },

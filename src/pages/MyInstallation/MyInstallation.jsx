@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Title from "../../components/TitleSectoin/Title";
 import InstalledApps from "../../components/InstalledApps/InstalledApps";
 
-const Installation = () => {
+const MyInstallation = () => {
   const [installList, setInstallList] = useState([]);
   useEffect(() => {
     const savesList = JSON.parse(localStorage.getItem("Installation"));
@@ -21,4 +21,4 @@ const Installation = () => {
   );
 };
 
-export default Installation;
+export default MyInstallation;
