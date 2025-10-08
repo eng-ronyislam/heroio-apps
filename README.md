@@ -1,16 +1,30 @@
-# React + Vite
+# HERO.IO
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**HERO.IO** is a modern and responsive web application designed as an app download platform. Built with **React**, **TailwindCSS**, **HTML**, **CSS**, and **JavaScript**, it provides users with a smooth, clean, and intuitive experience to browse and download applications with ease.
 
-Currently, two official plugins are available:
+🌐 **Live Demo:** [https://heroio-apps.netlify.app/](https://heroio-apps.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Introduction
 
-## Expanding the ESLint configuration
+**HERO.IO** serves as an application download website, allowing users to easily discover and download various applications in a clean and user-friendly interface. Designed with performance and simplicity in mind, it leverages modern web technologies to ensure responsiveness and speed.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- ⚡ Fast and responsive UI  
+- 🎨 Modern design powered by TailwindCSS  
+- 🔍 Easy navigation and search for apps  
+- 📱 Fully mobile-friendly  
+- 🧩 Built with reusable React components  
+
+---
+
+## 🧰 Tech Stack
+
+- **Frontend:** React, JavaScript, HTML, CSS  
+- **Styling:** TailwindCSS  
+- **Hosting:** Netlify  
