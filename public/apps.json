@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://i.ibb.co.com/DPhKygGn/demo-app-1.webp",
+    "title": "TaskMaster",
+    "companyName": "Prodify Inc",
+    "id": 1,
+    "description": "TaskMaster helps you manage your personal and professional life by organizing your to-do lists, deadlines, and goals in one place. With smart reminders, collaboration tools, and progress tracking, it ensures you never miss an important task again. Its clean interface and cloud sync make productivity effortless, wherever you go.",
+    "size": 45,
+    "reviews": 1200,
+    "ratingAvg": 4.5,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/HfDVtHH0/demo-app-2.webp",
+    "title": "FitBuddy",
+    "companyName": "HealthTech Co",
+    "id": 2,
+    "description": "FitBuddy is your all-in-one fitness companion, helping you track your workouts, calories, and progress in real-time. Whether you're a beginner or a pro athlete, it offers personalized workout routines and diet plans tailored to your goals. Its friendly interface and community challenges keep you motivated every day.",
+    "size": 60,
+    "reviews": 900,
+    "ratingAvg": 4.2,
+    "downloads": 75000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 435 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/5hh8KqMj/demo-app-3.webp",
+    "title": "PhotoMagic",
+    "companyName": "Pixel Labs",
+    "id": 3,
+    "description": "PhotoMagic transforms your photos into stunning visuals using AI-powered filters and professional editing tools. From color correction to background removal, everything is at your fingertips. It’s perfect for photographers, influencers, and anyone who loves creating visually captivating content with minimal effort.",
+    "size": 120,
+    "reviews": 2000,
+    "ratingAvg": 4.7,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1265 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/p6G7YPR7/demo-app-4.webp",
+    "title": "BudgetWise",
+    "companyName": "FinancePro",
+    "id": 4,
+    "description": "BudgetWise helps you take control of your finances with intuitive tracking and smart analytics. It automatically categorizes your expenses, monitors spending trends, and gives you monthly financial insights. Whether saving for a vacation or managing bills, BudgetWise keeps your money in check effortlessly.",
+    "size": 35,
+    "reviews": 800,
+    "ratingAvg": 4.1,
+    "downloads": 60000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 240 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/tpfSzPXc/demo-app-5.webp",
+    "title": "TravelMate",
+    "companyName": "Wanderlust Inc",
+    "id": 5,
+    "description": "TravelMate makes trip planning effortless by helping you discover destinations, compare hotels, and build custom itineraries. It also provides offline maps, local recommendations, and expense tracking for a smooth travel experience. Perfect for solo travelers, families, or adventurers who love exploring the world.",
+    "size": 80,
+    "reviews": 1500,
+    "ratingAvg": 4.6,
+    "downloads": 100000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 145 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/fzMZc7Pk/demo-app-6.webp",
+    "title": "LearnLang",
+    "companyName": "EduTech Solutions",
+    "id": 6,
+    "description": "LearnLang is a modern language-learning app that makes mastering new languages fun and interactive. It combines flashcards, quizzes, and conversation practice powered by AI tutors. With real-world phrases and progress tracking, you'll be speaking confidently faster than ever before.",
+    "size": 55,
+    "reviews": 1100,
+    "ratingAvg": 4.4,
+    "downloads": 85000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 445 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/XxsRgLDy/6353220.png",
+    "title": "MusicFlow",
+    "companyName": "SoundWave",
+    "id": 7,
+    "description": "MusicFlow lets you stream, download, and share your favorite songs with high-quality sound. Discover new artists, create personalized playlists, and enjoy offline mode when you’re on the go. Its smart recommendation system ensures you always find music that matches your mood.",
+    "size": 90,
+    "reviews": 1800,
+    "ratingAvg": 4.8,
+    "downloads": 200000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 75 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/3mbXR2qM/26671-26347-8797.png",
+    "title": "RecipeBox",
+    "companyName": "Culinary Creations",
+    "id": 8,
+    "description": "RecipeBox is your digital cookbook that brings thousands of delicious recipes to your fingertips. You can search by ingredients, cuisine, or dietary needs and even save your favorites. With step-by-step instructions and video tutorials, cooking has never been easier or more enjoyable.",
+    "size": 70,
+    "reviews": 1300,
+    "ratingAvg": 4.3,
+    "downloads": 95000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 680 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/300x300?text=App+Image",
+    "title": "MindEase",
+    "companyName": "CalmTech",
+    "id": 9,
+    "description": "MindEase helps reduce stress and anxiety through guided meditations, breathing exercises, and mindfulness sessions. With personalized programs and daily reminders, it supports your mental well-being and promotes a calmer lifestyle.",
+    "size": 50,
+    "reviews": 950,
+    "ratingAvg": 4.6,
+    "downloads": 78000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 465 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/300x300?text=App+Image",
+    "title": "ShopEase",
+    "companyName": "RetailPro",
+    "id": 10,
+    "description": "ShopEase simplifies online shopping with smart price comparisons, wishlist syncing, and order tracking. Discover deals across thousands of stores and enjoy a smooth checkout experience with one-tap purchasing.",
+    "size": 85,
+    "reviews": 1700,
+    "ratingAvg": 4.4,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 900 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/300x300?text=App+Image",
+    "title": "CodeCraft",
+    "companyName": "DevHub",
+    "id": 11,
+    "description": "CodeCraft is a coding playground that lets you write, test, and share code snippets across multiple languages. It’s perfect for developers, students, and educators who want to learn and collaborate in real time.",
+    "size": 150,
+    "reviews": 2100,
+    "ratingAvg": 4.9,
+    "downloads": 250000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 1545 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/300x300?text=App+Image",
+    "title": "NoteSync",
+    "companyName": "CloudWrite",
+    "id": 12,
+    "description": "NoteSync allows you to jot down ideas, create notebooks, and sync them across all your devices. Its minimalist design and offline mode make note-taking fast, clean, and distraction-free.",
+    "size": 40,
+    "reviews": 800,
+    "ratingAvg": 4.2,
+    "downloads": 62000,
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 290 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/300x300?text=App+Image",
+    "title": "Evently",
+    "companyName": "GatherUp",
+    "id": 13,
+    "description": "Evently makes event planning simple with tools to create invites, track RSVPs, and manage schedules. Whether it’s a birthday, wedding, or conference, Evently helps you stay organized and stress-free.",
+    "size": 65,
+    "reviews": 950,
+    "ratingAvg": 4.3,
+    "downloads": 72000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 395 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/300x300?text=App+Image",
+    "title": "StudyHub",
+    "companyName": "SmartLearn",
+    "id": 14,
+    "description": "StudyHub is a collaborative platform where students can share notes, join study groups, and track their academic goals. It’s designed to make learning social, efficient, and more engaging.",
+    "size": 75,
+    "reviews": 1200,
+    "ratingAvg": 4.5,
+    "downloads": 90000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 595 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/300x300?text=App+Image",
+    "title": "PetCare",
+    "companyName": "Animalia Labs",
+    "id": 15,
+    "description": "PetCare helps you keep track of your pet’s health, diet, and appointments. From vaccination reminders to activity tracking, it ensures your furry friend gets the best care possible.",
+    "size": 50,
+    "reviews": 1000,
+    "ratingAvg": 4.6,
+    "downloads": 85000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 495 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/300x300?text=App+Image",
+    "title": "DailyQuote",
+    "companyName": "InspireMe",
+    "id": 16,
+    "description": "DailyQuote delivers inspiring messages, motivational quotes, and affirmations every morning. Customize your categories and share your favorite quotes to start each day with positivity.",
+    "size": 25,
+    "reviews": 700,
+    "ratingAvg": 4.4,
+    "downloads": 54000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 305 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/300x300?text=App+Image",
+    "title": "WeatherNow",
+    "companyName": "SkyView Labs",
+    "id": 17,
+    "description": "WeatherNow provides accurate, real-time weather updates, forecasts, and alerts. With radar maps, widgets, and notifications, it keeps you informed wherever you go.",
+    "size": 30,
+    "reviews": 950,
+    "ratingAvg": 4.5,
+    "downloads": 88000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 505 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/300x300?text=App+Image",
+    "title": "GameVault",
+    "companyName": "PixelPlay",
+    "id": 18,
+    "description": "GameVault brings all your favorite mobile and PC games in one hub. Discover trending titles, read reviews, and track your gameplay stats with ease.",
+    "size": 130,
+    "reviews": 2200,
+    "ratingAvg": 4.8,
+    "downloads": 310000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 1675 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/300x300?text=App+Image",
+    "title": "MealPrep",
+    "companyName": "NutriLife",
+    "id": 19,
+    "description": "MealPrep helps you plan healthy meals, track calories, and shop smarter. It offers weekly meal plans, grocery lists, and nutrition insights tailored to your diet goals.",
+    "size": 65,
+    "reviews": 1050,
+    "ratingAvg": 4.3,
+    "downloads": 97000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 445 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/300x300?text=App+Image",
+    "title": "SleepTrack",
+    "companyName": "WellnessWorks",
+    "id": 21,
+    "description": "SleepTrack monitors your sleep cycles, snoring patterns, and overall rest quality using smart sensors. It provides personalized tips and analytics to help you fall asleep faster and wake up feeling refreshed. With soothing sounds and bedtime reminders, SleepTrack turns better sleep into a daily habit.",
+    "size": 50,
+    "reviews": 950,
+    "ratingAvg": 4.6,
+    "downloads": 82000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 340 },
+      { "name": "5 star", "count": 455 }
+    ]
+  }
+]

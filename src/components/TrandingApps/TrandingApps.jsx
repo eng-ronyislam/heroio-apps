@@ -1,12 +1,14 @@
 import React from 'react';
+import AppCard from '../AppCard/AppCard';
 
-const TrandingApps = () => {
+const TrendingApps = ({ trandingApps }) => {
     return (
-        <div>
-            <h2 className="text-2xl font-semibold text-center">Trending Apps</h2>
-            <p className="text-center text-gray-500">Explore All Trending Apps on the Market developed by us</p>
+            <div className=' container mx-auto py-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5'>
+            {trandingApps.map(app => (
+                <AppCard key={app.id} app={app}></AppCard>
+            ))}
         </div>
     );
 };
 
-export default TrandingApps;
+export default TrendingApps;
