@@ -8,7 +8,6 @@ import useApps from "../../hook/useApps";
 
 const Home = () => {
   const { apps, loading, error } = useApps();
-  console.log(apps)
   const trandingApps = apps.slice(0, 8);
 
   return (

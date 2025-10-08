@@ -7,9 +7,10 @@ const useApps = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
+    setLoading(true)
     const fetchApps = async () => {
       try {
-        const res = await axios.get("/apps.json");
+        const res = await axios.get("../apps.json");
         setApps(res.data);
       } catch (err) {
         setError(err.message);

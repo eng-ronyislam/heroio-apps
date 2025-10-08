@@ -1,11 +1,22 @@
-import React from 'react';
+import React from "react";
+import useApps from "../../hook/useApps";
+import Title from "../../components/TitleSectoin/Title";
+import AllApps from "../../components/AllApps/AllApps";
 
 const Apps = () => {
-    return (
-        <div>
-            <h1>Apps</h1>
-        </div>
-    );
+  const { apps } = useApps();
+  return (
+    <div className="bg-base-300">
+      <div className="container mx-auto">
+      <Title
+        title="Our All Applications"
+        subtitle="Explore All Apps on the Market developed by us. We code for Millions"
+      ></Title>
+      {/* <div>apps: {apps.length}</div> */}
+      <AllApps apps={apps}></AllApps>
+    </div>
+    </div>
+  );
 };
 
 export default Apps;
