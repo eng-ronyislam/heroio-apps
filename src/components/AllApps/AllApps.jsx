@@ -1,22 +1,16 @@
 import React, { useState } from "react";
 import AppCard from "../AppCard/AppCard";
 
-const AllApps = ({ apps = [] }) => {
+const AllApps = ({ apps }) => {
   const [search, setSearch] = useState("");
 
   const term = search.trim().toLocaleLowerCase();
 
-  // ✅ Safe filtering
   const filteredApps = term
     ? apps.filter(app =>
         app?.title?.toLocaleLowerCase().includes(term)
       )
     : apps;
-
-  // Optional: debug missing names
-  // apps.forEach(app => {
-  //   if (!app?.name) console.warn("⚠ Missing app.name:", app);
-  // });
 
   return (
     <div className="container mx-auto">
@@ -56,6 +50,7 @@ const AllApps = ({ apps = [] }) => {
 
       <div className="container mx-auto py-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
         {filteredApps.map((app) => (
+          
           <AppCard key={app.id} app={app} />
         ))}
       </div>
