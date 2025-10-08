@@ -12,7 +12,6 @@ const Apps = () => {
         title="Our All Applications"
         subtitle="Explore All Apps on the Market developed by us. We code for Millions"
       ></Title>
-      {/* <div>apps: {apps.length}</div> */}
       <AllApps apps={apps}></AllApps>
     </div>
     </div>
