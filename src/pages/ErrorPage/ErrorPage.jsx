@@ -5,10 +5,10 @@ import img from "../../assets/error-404.png";
 
 const ErrorPage = () => {
   return (
-    <div className="min-h-screen flex flex-col bg-gray-50">
+    <div className=" bg-base-300">
       <Navbar />
-      <div className="flex flex-1 flex-col items-center justify-center text-center px-4">
-        <img src={img} className="mb-5" />
+      <div className="flex flex-col items-center justify-center text-center px-4 py-10">
+        <img src={img} className="mb-5 w-3/12" />
         <h1 className="lg:text-5xl text-3xl font-bold text-gray-800 mb-2">
           Oops, page not found!
         </h1>

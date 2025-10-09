@@ -29,9 +29,9 @@ const InstalledApps = () => {
 
   const handleRemove = (id, title) => {
     toast.info(`🗑️ ${title} uninstalled successfully!`, {
-    position: "top-right",
-    autoClose: 2000
-  });
+      position: "top-right",
+      autoClose: 2000,
+    });
 
     const updatedList = installList.filter((app) => app.id !== id);
     setInstallList(updatedList);
@@ -48,9 +48,21 @@ const InstalledApps = () => {
 
   if (installList.length === 0) {
     return (
-      <div className="text-center py-20 text-gray-500 text-lg font-medium">
-        🚫 No Installed Apps
-      </div>
+      <>
+        <div className="text-center pt-20 text-gray-500 text-5xl font-bold">
+          🚫 No Installed Apps
+        </div>
+        <div className="text-center pt-10 pb-20">
+          <button style={{
+              background: "linear-gradient(125deg, #632EE3 5.68%, #9F62F2 88.38%)"
+            }}
+          className="btn text-white font-semibold hover:scale-105 transition-transform duration-300"
+          onClick={() => window.history.back()}
+        >
+          Go Back!
+        </button>
+        </div>
+      </>
     );
   }
 

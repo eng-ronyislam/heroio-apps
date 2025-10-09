@@ -13,14 +13,14 @@ const AllApps = ({ apps }) => {
     const timer = setTimeout(() => {
       if (term) {
         const filtered = apps.filter((app) =>
-          app?.title?.toLowerCase().includes(term)
+          app?.title?.trim().toLowerCase().includes(term)
         );
         setFilteredApps(filtered);
       } else {
         setFilteredApps(apps);
       }
       setLoading(false);
-    }, 500); 
+    }, 500);
 
     return () => clearTimeout(timer);
   }, [search, apps]);
@@ -74,10 +74,11 @@ const AllApps = ({ apps }) => {
               ))}
             </div>
           ) : (
-            <div className="text-center text-gray-500 text-lg font-medium py-10">
+            <div className="text-center text-gray-500 text-5xl font-bold py-10">
               🚫 No App Found
             </div>
           )}
+          
         </div>
       )}
     </div>
