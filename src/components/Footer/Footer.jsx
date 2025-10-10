@@ -32,16 +32,16 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold text-gray-700 mb-3">Follow Us</h3>
           <div className="flex justify-center md:justify-start space-x-4">
-            <a href="#" className="p-2 bg-gray-200 rounded-full hover:bg-blue-500 hover:text-white">
+            <a href="https://www.facebook.com/Eng.RonyOnCode/" className="p-2 bg-gray-200 rounded-full hover:bg-blue-500 hover:text-white">
               <FaFacebookF />
             </a>
-            <a href="#" className="p-2 bg-gray-200 rounded-full hover:bg-sky-400 hover:text-white">
+            <a href="https://x.com/eng_ronyislam" className="p-2 bg-gray-200 rounded-full hover:bg-sky-400 hover:text-white">
               <FaTwitter />
             </a>
-            <a href="#" className="p-2 bg-gray-200 rounded-full hover:bg-blue-700 hover:text-white">
+            <a href="https://www.linkedin.com/in/md-rony-islam-85642b379/" className="p-2 bg-gray-200 rounded-full hover:bg-blue-700 hover:text-white">
               <FaLinkedinIn />
             </a>
-            <a href="#" className="p-2 bg-gray-200 rounded-full hover:bg-gray-800 hover:text-white">
+            <a href="https://github.com/eng-ronyislam" className="p-2 bg-gray-200 rounded-full hover:bg-gray-800 hover:text-white">
               <FaGithub />
             </a>
           </div>

@@ -7,7 +7,7 @@ const Apps = () => {
   const { apps, loading } = useApps();
   return (
     <div className="bg-base-300">
-      <div className="container mx-auto">
+      <div className="container px-2 mx-auto">
       <Title
         title="Our All Applications"
         subtitle="Explore All Apps on the Market developed by us. We code for Millions"

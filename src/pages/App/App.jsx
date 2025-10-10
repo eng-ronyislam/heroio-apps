@@ -29,7 +29,7 @@ const App = () => {
     const existingList = JSON.parse(localStorage.getItem("Installation")) || [];
     const found = existingList.some((item) => item.id === app.id);
     setIsInstalled(found);
-  }, [app?.id]);
+  }, [app?.id, app]);
 
   if (loading) {
     return (
@@ -45,7 +45,6 @@ const App = () => {
 
   const handleInstallation = () => {
     let existingList = JSON.parse(localStorage.getItem("Installation")) || [];
-
     const alreadyInstalled = existingList.some((item) => item.id === app.id);
     if (alreadyInstalled) {
       toast.info(`${app.title} is already installed.`, {

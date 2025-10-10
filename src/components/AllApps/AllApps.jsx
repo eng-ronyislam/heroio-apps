@@ -26,7 +26,7 @@ const AllApps = ({ apps }) => {
   }, [search, apps]);
 
   return (
-    <div className="container mx-auto">
+    <div className="container px-2 mx-auto">
       <div className="flex items-center justify-between flex-col md:flex-row gap-4">
         <h3 className="font-semibold text-2xl">
           ({filteredApps.length}) Apps Found
@@ -66,7 +66,7 @@ const AllApps = ({ apps }) => {
           <span className="loading loading-ring loading-lg text-primary"></span>
         </div>
       ) : (
-        <div className="container mx-auto py-10">
+        <div className="container px-2 mx-auto py-10">
           {filteredApps.length > 0 ? (
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
               {filteredApps.map((app) => (

@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <>
       <div className="hero bg-base-200">
-        <div className="mt-20 text-center container mx-auto">
+        <div className="mt-20 text-center container px-2 mx-auto">
           <div className="space-y-6">
             <h1 className="text-5xl lg:text-7xl font-bold  mx-auto">
               We Build <br /> <span className="logo-text">Productive</span> Apps

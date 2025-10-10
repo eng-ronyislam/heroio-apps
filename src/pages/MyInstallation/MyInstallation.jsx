@@ -10,7 +10,7 @@ const MyInstallation = () => {
   }, []);
   return (
     <div className="bg-base-300 ">
-      <div className="container mx-auto">
+      <div className="container px-2 mx-auto">
         <Title
           title="Your Installed Apps"
           subtitle="Explore All Trending Apps on the Market developed by us"
